@@ -26,6 +26,7 @@ RUN apt-get update && \
         python3 \
         python3-pip \
         iperf3 \
+        arp-scan \
         jq && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
