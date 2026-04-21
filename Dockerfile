@@ -12,7 +12,21 @@ RUN apt-get update && \
         procps \
         ca-certificates \
         dnsutils \
-        nmap && \
+        nmap \
+        openssh-client \
+        tcpdump \
+        netcat-openbsd \
+        traceroute \
+        mtr \
+        httpie \
+        lsof \
+        strace \
+        rsync \
+        unzip \
+        python3 \
+        python3-pip \
+        iperf3 \
+        jq && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
