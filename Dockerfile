@@ -11,7 +11,7 @@ RUN apt-get update && \
         nano \
         procps \
         ca-certificates \
-        dnsutils 
+        dnsutils \
         nmap && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
